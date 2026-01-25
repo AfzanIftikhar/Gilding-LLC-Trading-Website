@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter, Routes, Route } from "react-router";
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/Gilding-LLC-Trading-Website">
+  <BrowserRouter >
     <Routes>
       <Route path="/" element={<App />} />
     </Routes>
